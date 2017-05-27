@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="cd30f1f4-6565-400c-8205-e45f42a4d5dc" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:25878/SueldosService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SueldosService.xsd" MetadataType="Schema" ID="a607fe68-725c-41f2-b44e-bbc1e9fceb78" SourceId="1" SourceUrl="http://localhost:25878/SueldosService.svc?xsd=xsd0" />
+    <MetadataFile FileName="SueldosService1.xsd" MetadataType="Schema" ID="c961f03b-0441-4318-82de-666cf2bb47a8" SourceId="1" SourceUrl="http://localhost:25878/SueldosService.svc?xsd=xsd1" />
+    <MetadataFile FileName="SueldosService2.xsd" MetadataType="Schema" ID="7fabe9e4-4871-4c59-b20e-c6ff4c6c747e" SourceId="1" SourceUrl="http://localhost:25878/SueldosService.svc?xsd=xsd2" />
+    <MetadataFile FileName="SueldosService.disco" MetadataType="Disco" ID="e796d658-a836-47a6-b5df-6d1ae2063774" SourceId="1" SourceUrl="http://localhost:25878/SueldosService.svc?disco" />
+    <MetadataFile FileName="SueldosService.wsdl" MetadataType="Wsdl" ID="4bfd8f25-000b-48b9-8024-2f5147f67e6e" SourceId="1" SourceUrl="http://localhost:25878/SueldosService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

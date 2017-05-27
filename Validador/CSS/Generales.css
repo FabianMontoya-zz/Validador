@@ -1,0 +1,17 @@
+﻿html, body {
+    min-height: 100%;
+    position: relative;
+}
+
+footer {
+	bottom: 0;
+}
+
+#Div_Card {
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+    overflow: inherit; 
+    z-index: 1; 
+    width: 65%;
+}
